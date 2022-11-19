@@ -21,7 +21,7 @@ const CONTENT = [
   {
     title: 'Líquido caliente o escaldaduras',
     content: 'Se producen por infusiones con sopas, líquidos calientes, durante el baño llevando a diferentes tipos de profundidad dependiendo del tiempo de exposición. Se puede producir también por aceite caliente y grasas que pueden generar quemaduras de espesores completos.',
-    image: require('../resources/Images/Escaldadura1.jpg')
+    image: require('../resources/Images/foto.png')
   },
   {
     title: 'Quemaduras por fuego',
@@ -83,7 +83,7 @@ export class TypeOfBurns extends Component {
       >
         <Text style={styles.contentText}>{section.content}</Text>
         <View style={styles.imageContainer}>
-          <Image source={section.image} style={imageStyle.style} />
+          <Image source={section.image} style={imageStyle.style} resizeMethod='scale' />
         </View>
       </Animatable.View>
     );

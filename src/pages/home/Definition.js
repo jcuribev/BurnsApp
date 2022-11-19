@@ -8,7 +8,7 @@ export class Definition extends Component {
         return (
             <View style={{ flex: 1 }}>
                 <Text style={textStyle.title}>
-                    INTRODUCCIÓN
+                   DEFINICIÓN DE QUEMADURA
                 </Text>
                 <Text style={textStyle.content}>
                     Las quemaduras son un trauma directo sobre la piel u otro tejido primario que puede ser causado por diferentes agentes como productos químicos, líquidos y sólidos calientes o aquellos agentes que producen llamas.

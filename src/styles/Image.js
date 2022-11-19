@@ -4,10 +4,15 @@ const imageStyle = StyleSheet.create({
     style: {
         marginVertical: 10,
         borderRadius: 15,
-        width: '90%',
         height: '90%',
-        resizeMode: "contain",
-        alignSelf: 'center'
+        width: '90%',
+        alignSelf: "center",
+        overflow: "hidden",
+        resizeMode: "contain"
+    },
+
+    profile: {
+        borderRadius: 200
     }
 })
 
