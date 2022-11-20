@@ -94,7 +94,7 @@ export class TypeOfBurns extends Component {
 
     return (
       <View style={styles.container}>
-        <ScrollView>
+        <ScrollView horizontal={true}>
           <View style={styles.multipleToggle}>
             <Text style={textStyle.title}>Tipos de quemaduras</Text>
           </View>
@@ -152,7 +152,7 @@ const styles = StyleSheet.create({
 
   },
   contentText: {
-    textAlign: 'center',
+    textAlign: 'justify',
     color: 'black',
     marginHorizontal: 20
   },

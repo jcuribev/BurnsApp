@@ -152,7 +152,7 @@ const styles = StyleSheet.create({
 
   },
   contentText: {
-    textAlign: 'center',
+    textAlign: 'justify',
     color: 'black',
     marginHorizontal: 20
   },

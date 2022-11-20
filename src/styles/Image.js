@@ -12,7 +12,11 @@ const imageStyle = StyleSheet.create({
     },
 
     profile: {
-        borderRadius: 200
+        borderRadius: 200,
+        maxHeight: 80,
+        maxWidth: 80,
+        overflow: 'hidden',
+        resizeMode: "contain"
     }
 })
 
