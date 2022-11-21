@@ -12,7 +12,7 @@ const App = () => {
   return (
     <NavigationContainer>
       <Stack.Navigator
-        initialRouteName='Home'
+        initialRouteName='Main'
         screenOptions={{
           headerMode: 'screen',
           headerTintColor: '#404554',
@@ -24,7 +24,7 @@ const App = () => {
           },
         }}>
 
-        <Stack.Screen options={{ headerShown: false }} name="Home" component={NavigationDrawer} />
+        <Stack.Screen options={{ headerShown: false }} name="Main" component={NavigationDrawer} />
       </Stack.Navigator>
     </NavigationContainer >
   );

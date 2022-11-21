@@ -21,9 +21,8 @@ import InHome from '../pages/burnPrevention/InHome';
 import TypeOfBurns from '../pages/TypeOfBurns';
 
 const Map = {
-  "Home": Introduction,
+  "Home": 'Home',
   "Introduction": Introduction,
-  "Test": TestScreen,
   "Prevention": Prevention,
   "WhatToDo": WhatToDo,
   "References": References,
