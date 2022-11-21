@@ -5,7 +5,6 @@ import { drawerItems } from './DrawerItemsMain';
 
 const CustomDrawer = (props) => {
 
-  const [mainDrawer, setMainDrawer] = useState(true);
   const [pressedButton, setPressedButton] = useState(['']);
   const [activeItems, setActiveItems] = useState(props.drawerItems.filter((e) => {
     return e.parent === null
@@ -65,7 +64,7 @@ const CustomDrawer = (props) => {
             </TouchableHighlight>
           ))}
           <TouchableHighlight underlayColor={"#dd7100"} style={styles.backButton} onPress={() => returnToPreviousItem(activeItems[0])}>
-            <Text style={styles.text}>Volver</Text>
+            <Text style={styles.text}>{activeItems[0].parent === null ? 'Salir' : 'Volver'}</Text>
           </TouchableHighlight>
         </View>
       </SafeAreaView>
