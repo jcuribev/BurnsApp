@@ -61,6 +61,12 @@ export const drawerItems = [
     },
 
     {
+        key: 'Complications',
+        title: 'Complicaciones de las quemaduras',
+        parent: 'Home'
+    },
+
+    {
         key: 'Functional',
         title: 'Funcionales',
         parent: 'Complications'

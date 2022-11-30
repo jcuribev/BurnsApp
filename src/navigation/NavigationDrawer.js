@@ -31,6 +31,7 @@ const Map = {
   "TypesOfBurns": TypeOfBurns,
   "Definition": Definition,
   "Clasification": Clasification,
+  "Complications": "Complications",
   "Functional": Functional,
   "Aesthetic": Aesthetic,
   "Labor": Labor,
